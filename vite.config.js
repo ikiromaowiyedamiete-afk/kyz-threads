@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/kyz-threads/', // 👈 MAKE SURE THIS MATCHES YOUR GITHUB REPO NAME EXACTLY
+  base: 'https://ikiromaowiyedamiete-afk.github.io/kyz-threads/', // 👈 MAKE SURE THIS MATCHES YOUR GITHUB REPO NAME EXACTLY
 })
