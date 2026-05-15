@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react' // or '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react' // or '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // 👈 Add the Tailwind plugin here
+    tailwindcss()
   ],
+  base: '/ikiromaowiyedamiete-afk/kyz-threads/', // 👈 MAKE SURE THIS MATCHES YOUR GITHUB REPO NAME EXACTLY
 })
